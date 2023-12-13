@@ -1,0 +1,97 @@
+@charset "UTF-8";
+html, body {
+	margin: 0;
+	text-align: center;
+	padding-bottom: 50px;
+
+	}
+html{
+	background:rgb(128, 128, 128);
+  background-size: cover;
+}
+h1,h2,.font{
+	font-family: 'Caveat', cursive;
+	color:rgb(255, 255, 128);
+	text-shadow: 3px 3px 2px black;
+}
+.menu {
+  width: 100%;
+  background: rgb(192, 192, 192);
+  position: fixed;
+  bottom: 0;
+  z-index:999;
+}
+
+input[type="submit"] {
+  display: inline-block;
+  padding: 0.3em 1em;
+  margin-bottom: 10px;
+  text-decoration: none;
+  background: #000000;
+  color: white;
+  border: double 5px rgb(128, 128, 0);
+  border-radius: 5px;
+  transition: .4s;
+}
+
+/*--hover--*/
+input[type="submit"]:hover {
+	  color: #000000;
+  background:#FFFFFF;
+
+}
+.Form-Item {
+	text-align: center;
+	position: relative;
+	width: 80%;
+	margin: auto;
+}
+.Form-Item input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 200px;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: rgb(0, 0, 0);
+	border: none;
+	border-bottom: 2px solid #1b2538;
+	background: transparent;
+}
+.Form-Item-Label input[type='text']:focus {
+	border-bottom: 4px double dodgerblue;
+	outline: none;
+}
+.haiku{
+	width:300px;
+	height:600px;
+}
+.onehaiku{
+	border: 1px solid #7EA8BE;
+	background:white;
+	margin:0 auto;
+	text-align: center;
+	width:60%;
+
+}
+.back{
+	/*
+	background:radial-gradient(rgb(192, 192, 192),rgb(255, 255, 255));
+	*/
+	width:100px;
+	text-align: center;
+	margin:0 auto;
+	background-color: rgb(255, 0, 0);
+}
+.backchild{
+	float:left;
+	margin:0 auto;
+}
+.timeline{
+	background:radial-gradient(rgb(192, 192, 192),rgb(255, 255, 255));
+	border: 10px double #7EA8BE;
+	width:60%;
+	height:13em;
+	margin:0 auto;
+	text-align: center;
+}

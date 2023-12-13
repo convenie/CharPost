@@ -1,0 +1,66 @@
+@charset "UTF-8";
+body{
+	background-image:url("../img/charpost.png");
+  background-size: cover;
+}
+h1{
+	text-align:center;
+}
+.in{
+	margin: 0 0 0 15px;
+	height: 28px;
+	width: 9em;
+	border-bottom:1px solid #cccccc;
+	border-right:none;
+	border-left:none;
+	border-top:none;
+	border-radius:0px;
+}
+.create{
+	text-align: center;
+}
+/*div要素*/
+.accr{
+    margin:  0 auto; 
+    text-align: center;
+  background: rgba(255, 255, 255,0.6);
+  height: 300px;
+  display: table;
+  width: 60%;
+  transform: translateY(50%) ;
+  margin:0 auto;
+}
+.accr p{
+	text-decoration: none;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+/*ボタンデザイン*/
+.button{
+    display: block;
+    width: 100px;
+    padding: 10px 0;
+    margin: auto;
+    background: #569f3c;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+}
+.button:hover{
+    background: #225f0d;
+}
+/*ボタンデザイン*/
+a {
+  color: skyblue;
+  text-decoration: none;
+}
+span{
+	color: skyblue;
+}
+label{
+    display: inline-block;
+    text-align: right;
+    
+    width: 300px;
+}

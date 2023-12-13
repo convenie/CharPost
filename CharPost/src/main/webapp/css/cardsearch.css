@@ -1,0 +1,118 @@
+@charset "UTF-8";
+html, body {
+	margin: 0;
+	text-align: center;
+	padding-bottom: 50px;
+	}
+html{
+	background:rgb(128, 128, 128);
+  background-size: cover;
+}
+.menu {
+  width: 100%;
+  background: rgb(192, 192, 192);
+  position: fixed;
+  bottom: 0;
+  z-index:999;
+}
+/*検索窓のデザイン↓*/
+    .cf:before, .cf:after{
+      content:"";
+      display:table;
+    }
+    .cf:after{
+      clear:both;
+    }
+    .cf{
+      zoom:1;
+    }
+    .form-wrapper {
+        width: 450px;
+        padding: 15px;
+        margin: 0px auto 50px auto;
+    }
+
+    .form-wrapper input {
+        width: 330px;
+        height: 20px;
+        padding: 10px 5px;
+        float: left;
+        font: bold 15px;
+        border: 0;
+        background: #eee;
+        -moz-border-radius: 3px 0 0 3px;
+        -webkit-border-radius: 3px 0 0 3px;
+        border-radius: 3px 0 0 3px;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+
+    .form-wrapper input:focus {
+        outline: 0;
+        background: #fff;
+        -moz-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        -webkit-box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+        box-shadow: 0 0 2px rgba(0,0,0,.8) inset;
+    }
+
+
+    .form-wrapper button {
+    overflow: visible;
+        position: relative;
+        float: right;
+        border: 0;
+        padding: 0;
+        cursor: pointer;
+        height: 40px;
+        width: 110px;
+        font: bold 15px/40px 'lucida sans', 'trebuchet MS', 'Tahoma';
+        color: #fff;
+        text-transform: uppercase;
+        background: rgb(0, 0, 0);
+        -moz-border-radius: 0 3px 3px 0;
+        -webkit-border-radius: 0 3px 3px 0;
+        border-radius: 0 3px 3px 0;
+        text-shadow: 0 -1px 0 rgba(0, 0 ,0, .3);
+    }
+
+    .form-wrapper button:hover{
+        background: lightgray;
+    }
+
+    .form-wrapper button:active,
+    .form-wrapper button:focus{
+        background: lightgray;
+    }
+    .form-wrapper button:hover:before{
+        border-right-color: lightgray;
+    }
+
+    .form-wrapper button:focus:before{
+        border-right-color: lightgray;
+    }
+
+    .form-wrapper button::-moz-focus-inner {
+        border: 0;
+        padding: 0;
+    }
+/*検索窓のデザイン↑*/
+/*検索結果のデザイン↓*/
+.profile{
+  background:  rgb(192, 192, 192);
+  width:60%;
+  margin: 0 auto;
+}
+.profile p{
+	text-align:center;
+}
+.myicon{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+h3{
+	background:rgb(0, 128, 255);
+	color:#FFFFFF;
+}
+/*検索結果のデザイ↑*/

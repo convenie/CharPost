@@ -1,0 +1,74 @@
+@charset "UTF-8";
+html, body {
+	margin: 0;
+	text-align: center;
+	padding-bottom: 50px;
+	}
+html{
+	background:rgb(128, 128, 128);
+  background-size: cover;
+}
+.menu {
+  width: 100%;
+  background: rgb(192, 192, 192);
+  position: fixed;
+  bottom: 0;
+  z-index:999;
+}
+.profile{
+  background: rgb(192, 192, 192);
+  width:60%;
+  margin: 0 auto;
+}
+.profile p{
+	text-align:left;
+	margin-left:30%;
+}
+.myicon{
+	width:100px;
+	height:100px;
+	border-radius:50%;
+}
+h3{
+	background:rgb(0, 128, 255);
+	color:#FFFFFF;
+}
+input[type="submit"] {
+  display: inline-block;
+  padding: 0.3em 1em;
+  margin-bottom: 10px;
+  text-decoration: none;
+  background: #000000;
+  color: white;
+  border: double 5px rgb(128, 128, 0);
+  border-radius: 5px;
+  transition: .4s;
+}
+
+/*--hover--*/
+input[type="submit"]:hover {
+	  color: #000000;
+  background:#FFFFFF;
+
+}
+.Form-Item {
+	position: relative;
+	width: 80%;
+	margin: 40px 3%;
+}
+.Form-Item input[type='text'] {
+	font: 15px/24px sans-serif;
+	box-sizing: border-box;
+	width: 100%;
+	padding: 0.3em;
+	transition: 0.3s;
+	letter-spacing: 1px;
+	color: #aaaaaa;
+	border: none;
+	border-bottom: 2px solid #1b2538;
+	background: transparent;
+}
+.Form-Item-Label input[type='text']:focus {
+	border-bottom: 4px double dodgerblue;
+	outline: none;
+}
